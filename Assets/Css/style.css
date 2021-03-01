@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(218, 218, 218), black );
+    height: 100%;
+    min-height: 100vh;
+
+}
+
+/* Navbar */
+.navbar {
+    background-color: #252627 !important; 
+}
+
+.nav-item a {
+    color: white !important ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 4px 11px -11px;
+    transition: all 0.5s ease;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    background-color: gray;
+    box-shadow: 0 0 0 0 #252627 ;
+    transform: scale(0.89);
+}
+
+.nav-item a:active{
+    background-color:firebrick;
+}
+
+.navbar-toggler{
+ background-color: rgb(194, 194, 194) !important;
+ border-radius: 8px;
+ transition: all 0.5s ease;
+ border: 0;
+} 
+
+@keyframes up{
+    from  {left:0px; bottom:5px;}
+    to {left:0px; bottom:0px;}
+  }
+
+  /* Cards */
+.card {
+    border-radius: 10px;
+
+}
+
+.card img{
+    cursor: pointer;
+    border-radius: 10px;
+}  
+
+.card img:hover {
+    opacity: 0.9;
+    position: relative;
+    animation-name: up;
+    animation-duration: .3s;
+    animation-direction: reverse;
+}
+
+.btn {
+    border-radius: 12px;
+    box-shadow: 0 6px 30px -10px #252627;
+    transition: all 0.5s ease;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    box-shadow: 0 0 0 0 #252627 ;
+    transform: scale(0.93);
+}
+
+.btn:active {
+   background-color: crimson;
+
+}
+
+/* about us */
+.aboutus {
+    color: #252627;
+    font-weight: 500;
+}
+
+.aboutusimg img {
+    border-radius: 8px;
+}
+
+.container a{
+    text-decoration: none
+}
+
+/* Contact */
+
+.contact h5 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.contact p{
+     color: #252627;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.contact a {
+    color: white;
+    font-size: 1.3em;
+}
+
+.contact a:hover{
+    color: #57df74;
+}
+
+/* footer */
+.footer {
+    background-color:  #252627;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer i.fa {
+    font-size: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+ 
+#content{
+    color: white;
+}
+
+#content a{
+    color: white;
+}
+
+.copyright {
+    text-align: right;
+}
+
